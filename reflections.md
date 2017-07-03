@@ -17,4 +17,4 @@ I took the option of manually tuning the hyperparameters because I thought that 
 
 For the proportional gain, I started with an initial value of `kp=0.1`. With both these values, the vehicle seemed to be able to track the road, but was not keeping to the middle path. I increased `kp=0.15` and it gave better results.
 
-As the vehicle progressed, it started oscillating, and I tried out again with `kd=0.6`. The oscillations stopped in the lesser turns but continued in sharp turns. I doubled the value of `kd=1.2` and when that proved insufficient, turned it further up to `kd=1.6` and the vehicle successfully completed the lap.
+As the vehicle progressed, it started oscillating, and I tried out again with `kd=0.6`. The oscillations stopped in the lesser turns but continued in sharp turns. I doubled the value of `kd=1.2` and when that proved insufficient, turned it further up to `kd=3.0` and the vehicle successfully completed the lap.
